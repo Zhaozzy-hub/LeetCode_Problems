@@ -13,19 +13,16 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Source\Playground">
-      <UniqueIdentifier>{f2c4f339-c4b9-4d82-bc17-4141c15540da}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\Solutions">
-      <UniqueIdentifier>{812c937a-6254-42b7-9882-e2577aaefc58}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="fabi.cpp">
-      <Filter>Source\Playground</Filter>
+    <ClCompile Include="Solutions\problem1.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Playground\fabi.cpp">
+      <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

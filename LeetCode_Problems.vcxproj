@@ -145,7 +145,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="fabi.cpp" />
+    <ClCompile Include="Playground\fabi.cpp" />
+    <ClCompile Include="Solutions\problem1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
