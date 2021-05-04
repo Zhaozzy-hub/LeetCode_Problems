@@ -21,7 +21,13 @@
     <ClCompile Include="Solutions\problem1.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="Playground\fabi.cpp">
+    <ClCompile Include="Playground\fib.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Playground\GridTraveler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Playground\canSum.cpp">
       <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
