@@ -30,5 +30,8 @@
     <ClCompile Include="Playground\canSum.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Playground\canConstruct.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

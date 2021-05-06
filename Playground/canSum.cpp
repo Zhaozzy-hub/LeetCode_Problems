@@ -45,10 +45,10 @@ bool dp_canSum(int n, vector<int> a,map<int, bool> &memo) {
 }
 
 
-int main()
-{
-	vector<int> a = { 7,14 };
-	map<int, bool> m;
-	cout << dp_canSum(300, a, m) << endl;
-	//cout << canSum(300, a) << endl;
-}
+//int main()
+//{
+//	vector<int> a = { 7,14 };
+//	map<int, bool> m;
+//	cout << dp_canSum(300, a, m) << endl;
+//	//cout << canSum(300, a) << endl;
+//}

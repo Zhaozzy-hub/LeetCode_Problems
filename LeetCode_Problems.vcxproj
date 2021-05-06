@@ -145,6 +145,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Playground\canConstruct.cpp" />
     <ClCompile Include="Playground\canSum.cpp" />
     <ClCompile Include="Playground\fib.cpp" />
     <ClCompile Include="Playground\GridTraveler.cpp" />
