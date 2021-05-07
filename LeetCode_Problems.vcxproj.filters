@@ -33,5 +33,11 @@
     <ClCompile Include="Playground\canConstruct.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Playground\allConstruct.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Playground\GridTraveler_tabul.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

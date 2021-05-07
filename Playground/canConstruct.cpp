@@ -30,15 +30,15 @@ bool canConstruct(string target, vector<string> bank, map<string, bool> &memo) {
 }
 
 
-int main() {
-
-
-	map<string, bool> memo1;
-	vector<string> vec1 = { "ab","abc","cd","def","abcd" };
-	cout << canConstruct("abcdef",vec1 , memo1) << endl;
-	map<string, bool> memo2;
-	vector<string> vec2 = { "e","ee","eee","eeee","eeeee","eeeeeeeee" };
-	cout << canConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef", vec2, memo2) << endl;
-
-
-}
+//int main() {
+//
+//
+//	map<string, bool> memo1;
+//	vector<string> vec1 = { "ab","abc","cd","def","abcd" };
+//	cout << canconstruct("abcdef",vec1 , memo1) << endl;
+//	map<string, bool> memo2;
+//	vector<string> vec2 = { "e","ee","eee","eeee","eeeee","eeeeeeeee" };
+//	cout << canconstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef", vec2, memo2) << endl;
+//
+//
+//}
