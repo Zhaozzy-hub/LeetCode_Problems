@@ -149,7 +149,6 @@
     <ClCompile Include="Playground\canSum.cpp" />
     <ClCompile Include="Playground\allConstruct.cpp" />
     <ClCompile Include="Playground\fib.cpp" />
-    <ClCompile Include="Playground\GridTraveler_tabul.cpp" />
     <ClCompile Include="Playground\GridTraveler.cpp" />
     <ClCompile Include="Solutions\problem1.cpp" />
   </ItemGroup>

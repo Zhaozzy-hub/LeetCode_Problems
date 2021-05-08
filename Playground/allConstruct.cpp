@@ -38,6 +38,32 @@ vector<string> allConstruct(string target, vector<string> bank, map<string,vecto
 }
 
 
+vector<string> tab_allConstruct(string target, vector<string> bank) {
+	vector<vector<string>> tab(target.size()+1, vector<string>());
+	tab[0] = { "" };
+
+	for (int i = 0; i <= target.size(); i++) {
+		if (tab[i].size() > 0) {
+			for (int j = 0; j < bank.size(); j++) {
+				int m = bank[j].length();
+				if (i + m <= target.size()) {
+					if (target.substr(i, bank[j].size()).compare(bank[j]) == 0) {
+						vector<string> tmp = tab[i];
+						for (int k = 0; k < tab[i].size(); k++) {
+							tmp[k] += " " + bank[j];
+						}
+						tab[i + m].insert(tab[i + m].end(), tmp.begin(), tmp.end());
+						
+					}
+				}
+			}
+			
+		}
+	}
+	return tab[target.size()];
+}
+
+
 void printer(vector<string> r) {
 	for (int i = 0; i < r.size(); i++)
 	{
@@ -46,12 +72,12 @@ void printer(vector<string> r) {
 	}
 }
 
-//int main() {
-//	map<string, vector<string>> memo1;
-//	string target1 = "abcdef";
-//	vector<string> bank1= { "ab","abc","cd","def","abcd","ef","c" };
-//	vector<string> r1 = allConstruct(target1, bank1,memo1);
-//	printer(r1);
+int main() {
+	map<string, vector<string>> memo1;
+	string target1 = "abcdef";
+	vector<string> bank1= { "ab","abc","cd","def","abcd","ef","c" };
+	vector<string> r1 = tab_allConstruct(target1, bank1);
+	printer(r1);
 //
 //	map<string, vector<string>> memo2;
 //	string target2 = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaz";
@@ -64,4 +90,4 @@ void printer(vector<string> r) {
 //	vector<string> bank3 = { "a","aa","aaa","aaaa","aaaaa","aaaaaa","aaaaaaa" };
 //	vector<string> r3 = allConstruct(target3, bank3,memo3);
 //	printer(r3);
-//}
+}
