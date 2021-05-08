@@ -18,9 +18,6 @@
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Solutions\problem1.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
     <ClCompile Include="Playground\fib.cpp">
       <Filter>Source</Filter>
     </ClCompile>
@@ -34,6 +31,9 @@
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="Playground\allConstruct.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Solutions\PerfectSquares.cpp">
       <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>

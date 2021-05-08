@@ -72,12 +72,12 @@ void printer(vector<string> r) {
 	}
 }
 
-int main() {
-	map<string, vector<string>> memo1;
-	string target1 = "abcdef";
-	vector<string> bank1= { "ab","abc","cd","def","abcd","ef","c" };
-	vector<string> r1 = tab_allConstruct(target1, bank1);
-	printer(r1);
+//int main() {
+//	map<string, vector<string>> memo1;
+//	string target1 = "abcdef";
+//	vector<string> bank1= { "ab","abc","cd","def","abcd","ef","c" };
+//	vector<string> r1 = tab_allConstruct(target1, bank1);
+//	printer(r1);
 //
 //	map<string, vector<string>> memo2;
 //	string target2 = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaz";
@@ -90,4 +90,4 @@ int main() {
 //	vector<string> bank3 = { "a","aa","aaa","aaaa","aaaaa","aaaaaa","aaaaaaa" };
 //	vector<string> r3 = allConstruct(target3, bank3,memo3);
 //	printer(r3);
-}
+//}

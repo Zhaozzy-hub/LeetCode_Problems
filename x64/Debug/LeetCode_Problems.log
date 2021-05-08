@@ -1,3 +1,2 @@
-﻿  allConstruct.cpp
-B:\visual studio\LeetCode_Problems\Playground\allConstruct.cpp(48,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+﻿  PerfectSquares.cpp
   LeetCode_Problems.vcxproj -> B:\visual studio\LeetCode_Problems\x64\Debug\LeetCode_Problems.exe

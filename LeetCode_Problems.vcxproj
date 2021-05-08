@@ -150,7 +150,7 @@
     <ClCompile Include="Playground\allConstruct.cpp" />
     <ClCompile Include="Playground\fib.cpp" />
     <ClCompile Include="Playground\GridTraveler.cpp" />
-    <ClCompile Include="Solutions\problem1.cpp" />
+    <ClCompile Include="Solutions\PerfectSquares.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
