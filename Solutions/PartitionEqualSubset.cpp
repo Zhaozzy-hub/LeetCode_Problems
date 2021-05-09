@@ -18,11 +18,14 @@ bool canpartition(vector<int>& nums) {
 	vector<vector<int>> tab(n + 1, vector<int>(C + 1));
 	for (int j = 0; j <= n; j++) {
 		for (int k = 0; k <= C; k++) {
-			if (j == 0 || k == 0) {
-				tab[j][k] = 0;
+			if (k == 0 || j == 0) {
+				tab[j][k] = false;
 			}
-			else if (nums[j-1] <= k) {
-				tab[j][k] = max(tab[j - 1][k], tab[j-1][k-nums[j-1]] + nums[j - 1]);
+			else if (nums[j - 1] == k) {
+				tab[j][k] = true;
+			}
+			else if (nums[j - 1] < k) {
+				tab[j][k] = tab[j - 1][k - nums[j - 1]] || tab[j - 1][k];
 			}
 			else {
 				tab[j][k] = tab[j - 1][k];
@@ -30,19 +33,14 @@ bool canpartition(vector<int>& nums) {
 		}
 	}
 
-	if (tab[n][C] == C) {
-		return true;
-	}
-	else {
-		return false;
-	}
+	return tab[n][C];
 }
 
 
 
 
-int main() {
-	vector<int> nums = { 2,2,1,1 };
-	cout << canpartition(nums) << endl;
-
-}
+//int main() {
+//	vector<int> nums = { 2,2,1,1 };
+//	cout << canpartition(nums) << endl;
+//
+//}
