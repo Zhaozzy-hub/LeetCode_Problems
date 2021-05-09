@@ -36,5 +36,11 @@
     <ClCompile Include="Solutions\PerfectSquares.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Solutions\PartitionEqualSubset.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Playground\01knapsack.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

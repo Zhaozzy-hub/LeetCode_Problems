@@ -145,11 +145,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Playground\01knapsack.cpp" />
     <ClCompile Include="Playground\canConstruct.cpp" />
     <ClCompile Include="Playground\canSum.cpp" />
     <ClCompile Include="Playground\allConstruct.cpp" />
     <ClCompile Include="Playground\fib.cpp" />
     <ClCompile Include="Playground\GridTraveler.cpp" />
+    <ClCompile Include="Solutions\PartitionEqualSubset.cpp" />
     <ClCompile Include="Solutions\PerfectSquares.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
