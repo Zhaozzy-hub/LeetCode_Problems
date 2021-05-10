@@ -42,5 +42,11 @@
     <ClCompile Include="Playground\01knapsack.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Solutions\PartitionKEqualSubset.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Solutions\CombSumII.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
