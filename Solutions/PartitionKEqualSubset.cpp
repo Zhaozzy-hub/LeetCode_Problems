@@ -48,12 +48,12 @@ bool PartitionKEqualSubset(vector<int>& nums,int k) {
 }
 
 
-int main() {
-	vector<int> nums1 = { 1,1,1,1,1,1,1,1,1,1 };
-	vector<int> nums2 = { 2,2,2,2,3,4,5 };
-	vector<int> nums3 = { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3 };
-	
-	cout << PartitionKEqualSubset(nums1, 5) << endl;
-	cout << PartitionKEqualSubset(nums2, 4) << endl;
-	cout << PartitionKEqualSubset(nums3, 8) << endl;
-}
+//int main() {
+//	vector<int> nums1 = { 1,1,1,1,1,1,1,1,1,1 };
+//	vector<int> nums2 = { 2,2,2,2,3,4,5 };
+//	vector<int> nums3 = { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3 };
+//	
+//	cout << PartitionKEqualSubset(nums1, 5) << endl;
+//	cout << PartitionKEqualSubset(nums2, 4) << endl;
+//	cout << PartitionKEqualSubset(nums3, 8) << endl;
+//}
