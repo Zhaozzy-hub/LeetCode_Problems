@@ -1,6 +1,2 @@
-﻿  CombSumII.cpp
-  PartitionEqualSubset.cpp
-B:\visual studio\LeetCode_Problems\Solutions\PartitionEqualSubset.cpp(15,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  PartitionKEqualSubset.cpp
-  Generating Code...
+﻿  PartitionKEqualSubset.cpp
   LeetCode_Problems.vcxproj -> B:\visual studio\LeetCode_Problems\x64\Debug\LeetCode_Problems.exe

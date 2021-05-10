@@ -30,18 +30,18 @@ vector<vector<int>> combinationSum2(vector<int>& candidates, int target){
 
 }
 
-void printer(vector<vector<int>> v) {
-	for (int i = 0; i < v.size(); i++) {
-		for (int j = 0; j < v[i].size(); j++) {
-			cout << v[i][j] << " ";
-		}
-		cout << endl;
-	}
-}
-
-int main() {
-	vector<int> candidates = { 10,1,2,7,6,1,5 };
-	printer(combinationSum2(candidates, 8));
-
-
-}
+//void printer(vector<vector<int>> v) {
+//	for (int i = 0; i < v.size(); i++) {
+//		for (int j = 0; j < v[i].size(); j++) {
+//			cout << v[i][j] << " ";
+//		}
+//		cout << endl;
+//	}
+//}
+//
+//int main() {
+//	vector<int> candidates = { 1,1,1,1,1,1,1,1,1,1 };
+//	printer(combinationSum2(candidates, 2));
+//
+//
+//}
