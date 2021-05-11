@@ -48,5 +48,8 @@
     <ClCompile Include="Solutions\CombSumII.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Solutions\canIWin.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
