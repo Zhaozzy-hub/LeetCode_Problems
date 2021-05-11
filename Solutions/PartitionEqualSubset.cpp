@@ -64,9 +64,9 @@ bool canPart1D(vector<int>& nums) {
 }
 
 
-
-int main() {
-	vector<int> nums = { 1,5,11,5 };
-	cout << canPart1D(nums) << endl;
-
-}
+//
+//int main() {
+//	vector<int> nums = { 1,5,11,5 };
+//	cout << canPart1D(nums) << endl;
+//
+//}

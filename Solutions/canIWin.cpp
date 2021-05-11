@@ -1,38 +1,36 @@
 #include <vector>
 #include <iostream>
+#include <map>
 using namespace std;
 
+bool solve(int state, int desiredTotal, vector<char>& m, int maxChoosableInteger) {
+    if (desiredTotal <= 0) return false;
+    if (m[state]) {
+        return m[state] == 1;
+    }
+    for (int i = 0; i < maxChoosableInteger; i++) {
+        if (state & (1 << i))continue;
+        if (!solve(state | (1 << i), desiredTotal - i - 1, m, maxChoosableInteger)) {
+            return m[state] = 1;
+        }
 
-bool solve(int maxChoosableInteger, int desiredTotal, int k, int it ) {
-	if (k == 1 && desiredTotal == 0) {
-		return true;
-	}
-	if ((desiredTotal <= 0 and k%2 != 0) || (desiredTotal <= maxChoosableInteger and k%2 == 0)) {
-		return false;
-	}
-	if ((desiredTotal <= 0 and k % 2 == 0) || (desiredTotal <= maxChoosableInteger and k % 2 != 0)) {
-		return true;
-	}
-	bool tmp = false;
-	for (int i = it; i <= maxChoosableInteger; i++) {
-		bool a, b;
-		if (k % 2 != 0) {
-			a = solve(maxChoosableInteger, desiredTotal - i,k+1,i+1);
-			tmp = tmp || a;
-		}
-		if (k % 2 == 0) {
-			tmp = true;
-			b = solve(maxChoosableInteger, desiredTotal - i,k+1,i+1);
-			tmp = tmp and b;
-		}
-	}
-	
-	return tmp;
 
+    }
+    m[state] = -1;
+    return false;
 }
 
 
+bool canIWin(int maxChoosableInteger, int desiredTotal) {
+    if ((1 + maxChoosableInteger) * maxChoosableInteger / 2 < desiredTotal) {
+        return false;
+    }
+    if (desiredTotal <= 0) return true;
+    vector<char>m(1 << maxChoosableInteger, 0);
+    return solve(0, desiredTotal, m, maxChoosableInteger);
+}
 
-//int main() {
-//	cout << solve(10, 100,1,1) << endl;
-//}
+
+int main() {
+	cout << canIWin(20, 152) << endl;
+}
