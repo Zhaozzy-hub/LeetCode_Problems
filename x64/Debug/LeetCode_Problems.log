@@ -1,3 +1,7 @@
-﻿  canIWin.cpp
-B:\visual studio\LeetCode_Problems\Solutions\canIWin.cpp(29,53): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+﻿  CombSumII.cpp
+  PredictWinner.cpp
+B:\visual studio\LeetCode_Problems\Solutions\PredictWinner.cpp(25,45): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  canIWin.cpp
+B:\visual studio\LeetCode_Problems\Solutions\canIWin.cpp(27,47): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+  Generating Code...
   LeetCode_Problems.vcxproj -> B:\visual studio\LeetCode_Problems\x64\Debug\LeetCode_Problems.exe

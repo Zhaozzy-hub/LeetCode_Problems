@@ -51,5 +51,8 @@
     <ClCompile Include="Solutions\canIWin.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Solutions\PredictWinner.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

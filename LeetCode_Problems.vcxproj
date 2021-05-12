@@ -156,6 +156,7 @@
     <ClCompile Include="Solutions\PartitionEqualSubset.cpp" />
     <ClCompile Include="Solutions\PartitionKEqualSubset.cpp" />
     <ClCompile Include="Solutions\PerfectSquares.cpp" />
+    <ClCompile Include="Solutions\PredictWinner.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
