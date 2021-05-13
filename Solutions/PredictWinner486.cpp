@@ -25,8 +25,8 @@ bool PredictTheWinner(vector<int>& nums) {
     return solve(0, nums.size() - 1, nums, m) >= 0;
 }
 
-int main() {
-    vector<int> nums = { 1,5,233,7 };
-    cout << PredictTheWinner(nums) << endl;
-
-}
+//int main() {
+//    vector<int> nums = { 1,5,233,7 };
+//    cout << PredictTheWinner(nums) << endl;
+//
+//}

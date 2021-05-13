@@ -54,5 +54,8 @@
     <ClCompile Include="Solutions\PredictWinner.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Solutions\RangeSumQuery2D.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
