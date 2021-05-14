@@ -36,9 +36,6 @@
     <ClCompile Include="Playground\01knapsack.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="PanlidromPartition131.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
     <ClCompile Include="Solutions\PartitionEqualSubset416.cpp">
       <Filter>Source</Filter>
     </ClCompile>
@@ -58,9 +55,6 @@
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="Solutions\CombSumII40.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="PalindromePartitionII132.cpp">
       <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
