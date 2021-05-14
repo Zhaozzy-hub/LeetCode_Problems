@@ -60,5 +60,8 @@
     <ClCompile Include="Solutions\CombSumII40.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="PalindromePartitionII132.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
