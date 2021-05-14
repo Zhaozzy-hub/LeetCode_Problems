@@ -145,19 +145,20 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="PanlidromPartition131.cpp" />
     <ClCompile Include="Playground\01knapsack.cpp" />
     <ClCompile Include="Playground\canConstruct.cpp" />
     <ClCompile Include="Playground\canSum.cpp" />
     <ClCompile Include="Playground\allConstruct.cpp" />
     <ClCompile Include="Playground\fib.cpp" />
     <ClCompile Include="Playground\GridTraveler.cpp" />
-    <ClCompile Include="Solutions\canIWin.cpp" />
-    <ClCompile Include="Solutions\CombSumII.cpp" />
-    <ClCompile Include="Solutions\PartitionEqualSubset.cpp" />
-    <ClCompile Include="Solutions\PartitionKEqualSubset.cpp" />
-    <ClCompile Include="Solutions\PerfectSquares.cpp" />
-    <ClCompile Include="Solutions\PredictWinner.cpp" />
-    <ClCompile Include="Solutions\RangeSumQuery2D.cpp" />
+    <ClCompile Include="Solutions\canIWin464.cpp" />
+    <ClCompile Include="Solutions\CombSumII40.cpp" />
+    <ClCompile Include="Solutions\PartitionEqualSubset416.cpp" />
+    <ClCompile Include="Solutions\PartitionKEqualSubset698.cpp" />
+    <ClCompile Include="Solutions\PerfectSquares279.cpp" />
+    <ClCompile Include="Solutions\PredictWinner486.cpp" />
+    <ClCompile Include="Solutions\RangeSumQuery2D304.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

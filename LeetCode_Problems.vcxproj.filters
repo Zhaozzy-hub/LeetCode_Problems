@@ -33,28 +33,31 @@
     <ClCompile Include="Playground\allConstruct.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="Solutions\PerfectSquares.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="Solutions\PartitionEqualSubset.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
     <ClCompile Include="Playground\01knapsack.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="Solutions\PartitionKEqualSubset.cpp">
+    <ClCompile Include="PanlidromPartition131.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="Solutions\CombSumII.cpp">
+    <ClCompile Include="Solutions\PartitionEqualSubset416.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="Solutions\canIWin.cpp">
+    <ClCompile Include="Solutions\PartitionKEqualSubset698.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="Solutions\PredictWinner.cpp">
+    <ClCompile Include="Solutions\PerfectSquares279.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="Solutions\RangeSumQuery2D.cpp">
+    <ClCompile Include="Solutions\PredictWinner486.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Solutions\canIWin464.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Solutions\RangeSumQuery2D304.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Solutions\CombSumII40.cpp">
       <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
