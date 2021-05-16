@@ -57,5 +57,17 @@
     <ClCompile Include="Solutions\CombSumII40.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Solutions\PalindromePartitionII132.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Solutions\PanlidromPartition131.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Solutions\UniqueNumberofOccurrence1207.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Solutions\ValidSudoku36.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
