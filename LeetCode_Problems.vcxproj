@@ -162,6 +162,7 @@
     <ClCompile Include="Solutions\RangeSumQuery2D304.cpp" />
     <ClCompile Include="Solutions\UniqueNumberofOccurrence1207.cpp" />
     <ClCompile Include="Solutions\ValidSudoku36.cpp" />
+    <ClCompile Include="WaterBottles1518.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
