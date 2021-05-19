@@ -151,6 +151,7 @@
     <ClCompile Include="Playground\allConstruct.cpp" />
     <ClCompile Include="Playground\fib.cpp" />
     <ClCompile Include="Playground\GridTraveler.cpp" />
+    <ClCompile Include="Solutions\BinaryTreeZigzag103.cpp" />
     <ClCompile Include="Solutions\canIWin464.cpp" />
     <ClCompile Include="Solutions\CombSumII40.cpp" />
     <ClCompile Include="Solutions\PalindromePartitionII132.cpp" />
