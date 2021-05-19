@@ -145,6 +145,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CloneGraph133.cpp" />
     <ClCompile Include="Playground\01knapsack.cpp" />
     <ClCompile Include="Playground\canConstruct.cpp" />
     <ClCompile Include="Playground\canSum.cpp" />
