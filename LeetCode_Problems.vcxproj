@@ -145,7 +145,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CloneGraph133.cpp" />
     <ClCompile Include="Playground\01knapsack.cpp" />
     <ClCompile Include="Playground\canConstruct.cpp" />
     <ClCompile Include="Playground\canSum.cpp" />
@@ -154,6 +153,7 @@
     <ClCompile Include="Playground\GridTraveler.cpp" />
     <ClCompile Include="Solutions\BinaryTreeZigzag103.cpp" />
     <ClCompile Include="Solutions\canIWin464.cpp" />
+    <ClCompile Include="Solutions\CloneGraph133.cpp" />
     <ClCompile Include="Solutions\CombSumII40.cpp" />
     <ClCompile Include="Solutions\PalindromePartitionII132.cpp" />
     <ClCompile Include="Solutions\PanlidromPartition131.cpp" />

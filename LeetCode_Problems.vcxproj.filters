@@ -78,7 +78,7 @@
     <ClCompile Include="Solutions\BinaryTreeZigzag103.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="CloneGraph133.cpp">
+    <ClCompile Include="Solutions\CloneGraph133.cpp">
       <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
