@@ -81,5 +81,8 @@
     <ClCompile Include="Solutions\CloneGraph133.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Solutions\DeleteNode237.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

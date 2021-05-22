@@ -155,6 +155,7 @@
     <ClCompile Include="Solutions\canIWin464.cpp" />
     <ClCompile Include="Solutions\CloneGraph133.cpp" />
     <ClCompile Include="Solutions\CombSumII40.cpp" />
+    <ClCompile Include="Solutions\DeleteNode237.cpp" />
     <ClCompile Include="Solutions\PalindromePartitionII132.cpp" />
     <ClCompile Include="Solutions\PanlidromPartition131.cpp" />
     <ClCompile Include="Solutions\PartitionEqualSubset416.cpp" />
