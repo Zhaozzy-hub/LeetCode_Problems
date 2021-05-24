@@ -87,5 +87,8 @@
     <ClCompile Include="Solutions\SameTree100.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Solutions\BoatstoSavePeople881.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
