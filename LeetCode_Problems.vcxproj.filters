@@ -90,5 +90,8 @@
     <ClCompile Include="Solutions\BoatstoSavePeople881.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Solutions\MaximumPoints1423.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
