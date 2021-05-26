@@ -165,6 +165,7 @@
     <ClCompile Include="Solutions\PerfectSquares279.cpp" />
     <ClCompile Include="Solutions\PredictWinner486.cpp" />
     <ClCompile Include="Solutions\RangeSumQuery2D304.cpp" />
+    <ClCompile Include="Solutions\RecoverBinarySearchTree99.cpp" />
     <ClCompile Include="Solutions\SameTree100.cpp" />
     <ClCompile Include="Solutions\TargetSum494.cpp" />
     <ClCompile Include="Solutions\UniqueNumberofOccurrence1207.cpp" />
