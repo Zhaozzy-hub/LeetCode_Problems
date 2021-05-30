@@ -159,6 +159,7 @@
     <ClCompile Include="Solutions\DeleteNode237.cpp" />
     <ClCompile Include="Solutions\DetermineifStringClose1657.cpp" />
     <ClCompile Include="Solutions\MaximumPoints1423.cpp" />
+    <ClCompile Include="Solutions\NumberofIslands200.cpp" />
     <ClCompile Include="Solutions\PalindromePartitionII132.cpp" />
     <ClCompile Include="Solutions\PanlidromPartition131.cpp" />
     <ClCompile Include="Solutions\PartitionEqualSubset416.cpp" />
