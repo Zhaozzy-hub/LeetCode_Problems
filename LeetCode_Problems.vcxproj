@@ -151,9 +151,11 @@
     <ClCompile Include="Playground\allConstruct.cpp" />
     <ClCompile Include="Playground\fib.cpp" />
     <ClCompile Include="Playground\GridTraveler.cpp" />
+    <ClCompile Include="Solutions\ArithmeticSlices413.cpp" />
     <ClCompile Include="Solutions\AsteroidCollision735.cpp" />
     <ClCompile Include="Solutions\BinaryTreeZigzag103.cpp" />
     <ClCompile Include="Solutions\BoatstoSavePeople881.cpp" />
+    <ClCompile Include="Solutions\BuildArray1420.cpp" />
     <ClCompile Include="Solutions\canIWin464.cpp" />
     <ClCompile Include="Solutions\CloneGraph133.cpp" />
     <ClCompile Include="Solutions\CombSumII40.cpp" />

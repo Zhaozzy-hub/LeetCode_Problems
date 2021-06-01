@@ -108,5 +108,11 @@
     <ClCompile Include="Solutions\AsteroidCollision735.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Solutions\BuildArray1420.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Solutions\ArithmeticSlices413.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
