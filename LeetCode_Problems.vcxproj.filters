@@ -114,5 +114,8 @@
     <ClCompile Include="Solutions\ArithmeticSlices413.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Solutions\ArithmeticSlicesII446.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
