@@ -153,6 +153,7 @@
     <ClCompile Include="Playground\GridTraveler.cpp" />
     <ClCompile Include="Solutions\ArithmeticSlices413.cpp" />
     <ClCompile Include="Solutions\ArithmeticSlicesII446.cpp" />
+    <ClCompile Include="Solutions\ArithmeticSubarrays1630.cpp" />
     <ClCompile Include="Solutions\AsteroidCollision735.cpp" />
     <ClCompile Include="Solutions\BinaryTreeZigzag103.cpp" />
     <ClCompile Include="Solutions\BoatstoSavePeople881.cpp" />
