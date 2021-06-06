@@ -123,5 +123,8 @@
     <ClCompile Include="Solutions\ArrayPartitionI561.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Solutions\UncommonWords884.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
