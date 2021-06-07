@@ -165,6 +165,7 @@
     <ClCompile Include="Solutions\DeleteNode237.cpp" />
     <ClCompile Include="Solutions\DetermineifStringClose1657.cpp" />
     <ClCompile Include="Solutions\FillingBookcaseShelves1105.cpp" />
+    <ClCompile Include="Solutions\FlipColumnsMaxEqualRows.cpp" />
     <ClCompile Include="Solutions\MaximumPoints1423.cpp" />
     <ClCompile Include="Solutions\NumberofIslands200.cpp" />
     <ClCompile Include="Solutions\PalindromePartitionII132.cpp" />

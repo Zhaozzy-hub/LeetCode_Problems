@@ -126,5 +126,8 @@
     <ClCompile Include="Solutions\UncommonWords884.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Solutions\FlipColumnsMaxEqualRows.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
