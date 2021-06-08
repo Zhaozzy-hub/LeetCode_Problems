@@ -129,5 +129,11 @@
     <ClCompile Include="Solutions\FlipColumnsMaxEqualRows.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Solutions\MatrixDiagonalSum1572.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Solutions\LargestPerimeterTriangle976.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
