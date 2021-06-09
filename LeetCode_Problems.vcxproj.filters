@@ -135,5 +135,8 @@
     <ClCompile Include="Solutions\LargestPerimeterTriangle976.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Solutions\ContinuousSubarraySum523.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

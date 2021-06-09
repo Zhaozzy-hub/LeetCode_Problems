@@ -162,6 +162,7 @@
     <ClCompile Include="Solutions\canIWin464.cpp" />
     <ClCompile Include="Solutions\CloneGraph133.cpp" />
     <ClCompile Include="Solutions\CombSumII40.cpp" />
+    <ClCompile Include="Solutions\ContinuousSubarraySum523.cpp" />
     <ClCompile Include="Solutions\DeleteNode237.cpp" />
     <ClCompile Include="Solutions\DetermineifStringClose1657.cpp" />
     <ClCompile Include="Solutions\FillingBookcaseShelves1105.cpp" />
