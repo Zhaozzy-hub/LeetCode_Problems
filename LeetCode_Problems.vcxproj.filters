@@ -138,5 +138,8 @@
     <ClCompile Include="Solutions\ContinuousSubarraySum523.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Solutions\MinimumCostTreeFromLeafValues1130.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

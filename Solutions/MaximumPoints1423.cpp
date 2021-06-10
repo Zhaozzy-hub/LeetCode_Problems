@@ -1,6 +1,6 @@
 #include <vector>
 #include <iostream>
-#include<map>
+#include <map>
 using namespace std;
 
 
